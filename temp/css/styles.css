@@ -1,0 +1,175 @@
+
+/* font em hack*/
+
+/****** basicly a hack that makes 1em= 10px so math is easier ******/
+/* main stylesheet */
+/** NAV **/
+
+#nav {
+    max-width: 100%;
+    background: #BD3D03;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin-bottom: 3em;
+}
+#nav ul {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+}
+#nav li {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 0;
+}
+#nav li a {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    color: white;
+    text-decoration: none;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+#nav a:hover {
+    background-color: white;
+    color: #BD3D03;
+}
+data-show-count {
+    /* what? */
+}
+/** CONTENT WRAP **/
+
+#inner-content {
+    margin-right: 1.3em;
+}
+#top {
+    width: 100%;
+    background-color: #960600;
+    height: inherit;
+}
+/** TEXT TAG & IMG **/
+
+h1 {
+	font-size: 1.5em;
+	padding: 1.0em;
+	color: white;
+	text-align: center;
+	line-height: 0.2em;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-weight: 400;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    color: #960600;
+    line-height: 1.5em;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-weight: 500;
+}
+h3 {
+    margin-left: 1em;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-weight: 500;
+}
+p {
+    margin-bottom: 1.5em;
+    margin-left: 3em;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    line-height: 2em;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+ul {
+    margin-left: 3em;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+li {
+    list-style: none;
+    margin-bottom: 1.5em;
+    margin-left: 1em;
+}
+a {
+    color: #BD3D03;
+}
+a:hover {
+    color: #960600;
+}
+.twitter-follow-button {
+    margin-left: 1em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr.narrow {
+	width: 40% 
+}
+
+hr.wide {
+	width: 80% 
+}
+
+table.footer { 	table-layout: fixed; 
+				margin-left: 2em;
+				width: 1024px;
+				margin-left:auto;
+				margin-right:auto; }
+}
+
+.fdp:before  { content: "\2058\ "; }
+.fdp:after   { content: "\ \2058"; } 
+
+.www_title  { font-family: "Georgia,Palatino,Times,Roman";
+              font-size: 33pt; 
+              text-align: center;}
+
+.www_sidebar  { text-align: center; 
+               font-family: "Georgia,Palatino,Times,Roman";
+               font-size: 12pt;
+               margin-left: 0em; margin-right: 0em;
+               padding: 0.15em 0.15em 0.15em .15em; 
+               width: 100%;
+               background: url("/images/lines.gif");
+               border: 2px solid #cccccc }
+
+.www_sectiontitle, .www_subsection {
+               border-width: 1px;
+               border-style: solid none;
+               text-align: center;
+               vertical-align: middle;
+               font-family: "Georgia,Palatino,Times,Roman";
+               font-weight: bold; font-size: 18pt;
+               background: url("/images/lines.gif");
+               padding: 0.1em 0.1em 0.1em .1em; 
+               width: 100%;
+               margin-bottom: 0.3em; }
+
+.www_subsection { width: 75%;
+                  text-align: left;  font-size: 13pt; }
+
+.www_subsubsection { margin: 1.0em 0.5em 0.5em 0.5em;
+                     font-weight: bold; font-style: oblique;
+                     border-bottom: 1px solid #999999; font-size: 12pt;
+                     width: 75%; }
+
+.www_code { border: solid 1px gray; background: #eeeeee;
+            margin: 0 1em 0 1em; 
+            padding: 0 1em 0 1em;
+            display: table; }
+
+.www_footer { text-align: left; color: #ffbf00; background: blue; padding: 0 0 0 0 }
+
+/* End of File */
